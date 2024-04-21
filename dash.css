@@ -37,6 +37,10 @@ body{
     
      
 }
+.titlelogin span{
+    color: #caa571;
+}
+
 .kmain{
     
     display: grid ;
@@ -94,10 +98,7 @@ body{
 
  }
 
- 
-
-
- .regSites,.regAmaz,.regtarget{
+ .regAmaz,.regtarget{
 
     border:solid 9px 5px 2px 3px #161412; 
     box-shadow: 0px 5px 8px 9px #edbe6e;
@@ -105,19 +106,9 @@ body{
  }
 
 
- .regSites,.regAmaz,.regtarget{
-
-    border:solid 9px 5px 2px 3px #161412; 
-    box-shadow: 0px 5px 8px 9px #edbe6e;
-    border-radius: 15px;
- }
  .regtarget{
     margin-top: 50px;
  }
-
-
-
-
 
 .invite{
     width: 450px;
@@ -128,7 +119,8 @@ body{
 
 
     border: solid 6px 5px 2px 3px #b8a972; 
-    box-shadow: 0px 5px 2px 3px #b8a972;
+    box-shadow: 0px 5px 9px 3px #b8a972;
+    border-radius: 15px;
 }
 
  .name{
@@ -152,4 +144,63 @@ body{
  }
 
 
+ /*************************************************************************************/
+
+ @media only screen and (min-width: 520px) {
+
+    .bckgrnd img{
+        margin-left: 0px;
+        max-width:300px;
+        height:300px;
+
+    }
+
+
+
+ }
+ @media only screen and (max-width: 780px) {
+    .kmain{
+        display: block;
+        
+    }
+
+    .bckgrnd img{
+        margin-left: 0px;
+        margin: auto;
+        max-width:600px;
+        height:400px;
+
+    }
+
+
+
+ }
+ @media only screen and (min-width: 920px) {
+    .kmain{
+        display: block;
+        
+    }
+
+    .bckgrnd img{
+        margin-left: 0px;
+        margin: auto;
+        max-width:750px;
+        height:550px;
+
+    }
+
+
+
+ }
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .bckgrnd img{
+        
+        max-width:900px;
+        height:700px;
+
+    }
+
+}
 
