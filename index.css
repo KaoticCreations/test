@@ -1,0 +1,262 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    
+    background-image: linear-gradient(#82a18f,#f3f3f3,#82a18f,#82a18f);  
+    
+}
+
+.kTainr{
+    background-color: #7d7daf;
+    
+  
+
+}
+
+.knav{
+    background-color: #c3e01b;
+    display:none;
+    
+
+}
+
+.kheadr{
+background-color: #7e4803;
+margin: auto;
+display:none;
+    
+    
+
+}
+
+.kmain{
+   background-color: #2a2ae2;
+   background-image: linear-gradient(#82a18f,#f3f3f3,#82a18f,#82a18f);  
+   
+   max-width: 1080px;
+   margin: auto;
+    
+
+}
+
+.kside{
+    background-color: #01632d;
+    display:none;
+    
+
+}
+.kAbyss{
+    background-color: #410541;
+    
+
+    
+
+}
+
+.titlelogin, .babyNme{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.babyNme{    
+    font-size: 3rem;
+
+    margin-bottom:10px;
+    color: #346b6e;  
+}
+.titlelogin h4 span,.babyNme h4 span{
+    
+    font-size: 3.5rem;
+
+    margin-bottom:80px;
+    color: #858158; 
+    color: #fbf3cd;
+    
+}
+
+
+
+.bckgrnd{
+    margin: auto;
+    scale:1.5;
+}
+
+form a
+{
+    background-color: #346b6e;
+    color: #f3f3f3;
+    padding: 0.5rem 1rem;
+    border:none;
+    outline:none;
+    border-radius: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;    
+    
+}
+
+
+
+.box
+{
+    position: relative;
+    
+    width:100%; 
+    min-width: 280px;
+    
+    height: 780px;
+    
+    background-color: #e3eaeb; 
+    
+    
+    border-radius: 8px;
+    overflow: hidden;
+        
+    margin:auto;
+    margin-top: 100px;
+    
+}
+.box::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#8fafb1,#989b9e,#fbf3cd);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+}
+    
+    
+
+
+
+.box::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#fbf3cd,#346b6e,#8fafb1);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+}
+.borderline
+{
+    position: absolute;
+    top: 0;
+    inset: 0;
+}
+.borderline::before
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#8fafb1,#989b9e,#e3eaeb);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: 1.5s;
+}
+.borderline::after
+{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 80%;
+    height: 980px;
+    background: linear-gradient(0deg,transparent,transparent,#98a898,#346b6e,#8fafb1);
+    
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -4.5s;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}   
+
+
+
+.box form
+{
+    position: absolute;    
+    inset: 4px;
+    background:#8fafb1;
+    
+    padding: 50px 40px;
+    border-radius: 15px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+/*******************************************************************************************/
+/* Extra small devices (phones, 600px and down) */
+
+
+@media only screen and (max-width: 380px) {
+    .kmain{
+        
+        margin: 0;
+         
+     
+     }
+
+    .bckgrnd{   
+        margin-left: 0;
+        
+        scale:.5;
+    }
+    .titlelogin h4 span,.babyNme h4 span{
+    
+        font-size: 3.5rem;
+    
+        margin-bottom:80px;
+       
+        
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+    .bckgrnd{   
+        
+        scale:1;
+    }
+
+}
+
