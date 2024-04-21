@@ -8,8 +8,8 @@ body{
     margin: 0;
     
     
+    
     background-color: #ffffff;
-    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#caa571,#b9cac8);
     
 }
 
@@ -74,6 +74,8 @@ display:none;
     margin-bottom:10px;
     color: #caa571; 
     color: #fbc483; 
+    color: #fadbad;
+    color: #caa571; 
 }
 .titlelogin h4 span,.babyNme h4 span{
     
@@ -83,6 +85,7 @@ display:none;
     color: #858158; 
     
     color: #caa571;  
+    color: #fbc483;  
     
 }
 
@@ -123,6 +126,7 @@ form a
     height: 780px;
     
     background-color: #fbf3cd; 
+    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#caa571);
     
     
     border-radius: 8px;
@@ -219,7 +223,9 @@ form a
     position: absolute;    
     inset: 4px;
     background:#fbf3fd;
-    
+    background-image:radial-gradient(#fbc483,#b9cac8,#caa571);
+
+    background:#fbf3fd;
     padding: 50px 40px;
     border-radius: 15px;
     z-index: 2;
