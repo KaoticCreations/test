@@ -7,7 +7,9 @@
 body{
     margin: 0;
     
-    background-image: linear-gradient(#82a18f,#f3f3f3,#82a18f,#82a18f);  
+    
+    background-color: #ffffff;
+    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#caa571,#b9cac8);
     
 }
 
@@ -36,10 +38,12 @@ display:none;
 
 .kmain{
    background-color: #2a2ae2;
-   background-image: linear-gradient(#82a18f,#f3f3f3,#82a18f,#82a18f);  
+   
+   background-color: transparent;
    
    max-width: 1080px;
    margin: auto;
+   margin-bottom: 200px;
     
 
 }
@@ -64,11 +68,12 @@ display:none;
     flex-direction: column;
     text-align: center;
 }
-.babyNme{    
+.babyNme, .titlelogin{    
     font-size: 3rem;
 
     margin-bottom:10px;
-    color: #346b6e;  
+    color: #caa571; 
+    color: #fbc483; 
 }
 .titlelogin h4 span,.babyNme h4 span{
     
@@ -76,10 +81,10 @@ display:none;
 
     margin-bottom:80px;
     color: #858158; 
-    color: #fbf3cd;
+    
+    color: #caa571;  
     
 }
-
 
 .bckgrnd{
     margin: auto;
@@ -87,13 +92,12 @@ display:none;
 
 .bckgrnd img{  
     
-    scale:1;
+    scale:4;
 }
-
 
 form a
 {
-    background-color: #346b6e;
+    background-color: #eebd73;
     color: #f3f3f3;
     padding: 0.5rem 1rem;
     border:none;
@@ -105,6 +109,7 @@ form a
     text-decoration: none;
     text-align: center;    
     
+    
 }
 
 
@@ -114,11 +119,10 @@ form a
     position: relative;
     
     width:100%; 
-    min-width: 280px;
-    
+    min-width: 280px;    
     height: 780px;
     
-    background-color: #e3eaeb; 
+    background-color: #fbf3cd; 
     
     
     border-radius: 8px;
@@ -136,7 +140,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#8fafb1,#989b9e,#fbf3cd);
+    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#fbf3cd);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -155,7 +159,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#fbf3cd,#346b6e,#8fafb1);
+    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#8fafb1);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -174,7 +178,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#8fafb1,#989b9e,#e3eaeb);
+    background: linear-gradient(0deg,transparent,transparent,#b9cac8,#989b9e,#e3eaeb);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -188,7 +192,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#98a898,#346b6e,#8fafb1);
+    background: linear-gradient(0deg,transparent,transparent,#98a898,#b9cac8,#8fafb1);
     
     z-index: 1;
     transform-origin: bottom right;
@@ -214,7 +218,7 @@ form a
 {
     position: absolute;    
     inset: 4px;
-    background:#8fafb1;
+    background:#fbf3fd;
     
     padding: 50px 40px;
     border-radius: 15px;
@@ -229,6 +233,7 @@ form a
 /*******************************************************************************************/
 /* Extra small devices (phones, 600px and down) */
 
+
 @media only screen and (max-width: 580px) {
     
      .box{
@@ -236,8 +241,8 @@ form a
      }
 
      .bckgrnd img{  
-        margin-left: -30px;   
-        scale:.8;
+        margin: 0px;
+        scale:2.5;
     }
 
 
@@ -254,3 +259,10 @@ form a
     }
 
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+
+   
+}
+
