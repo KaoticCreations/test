@@ -100,7 +100,7 @@ display:none;
 
 form a
 {
-    background-color: #eebd73;
+    background-color: #caa571  ;
     color: #f3f3f3;
     padding: 0.5rem 1rem;
     border:none;
@@ -123,11 +123,8 @@ form a
     
     width:100%; 
     min-width: 280px;    
-    height: 780px;
-    
-    background-color: #fbf3cd; 
-    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#caa571);
-    
+    height: 780px;        
+    background-color: #fbc483; 
     
     border-radius: 8px;
     overflow: hidden;
@@ -144,7 +141,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#fbf3cd);
+    background: linear-gradient(0deg,transparent,transparent,#caa571,#ffffff,#caa571);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -163,7 +160,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#fbc483,#b9cac8,#8fafb1);
+    background: linear-gradient(0deg,transparent,transparent,#caa571,#ffffff,#caa571);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -182,7 +179,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#b9cac8,#989b9e,#e3eaeb);
+    background: linear-gradient(0deg,transparent,transparent,#b9cac8ff,#ffffff,#b9cac8ff);
     z-index: 1;
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -196,7 +193,7 @@ form a
     left: -50%;
     width: 80%;
     height: 980px;
-    background: linear-gradient(0deg,transparent,transparent,#98a898,#b9cac8,#8fafb1);
+    background: linear-gradient(0deg,transparent,transparent,#b9cac8ff,#fbc483,#b9cac8ff);
     
     z-index: 1;
     transform-origin: bottom right;
