@@ -81,11 +81,15 @@ display:none;
 }
 
 
-
 .bckgrnd{
     margin: auto;
-    scale:1.5;
 }
+
+.bckgrnd img{  
+    margin: auto;
+    scale:4;
+}
+
 
 form a
 {
@@ -225,41 +229,28 @@ form a
 /*******************************************************************************************/
 /* Extra small devices (phones, 600px and down) */
 
-
-@media only screen and (max-width: 380px) {
-    .kmain{
-        
-        margin: 0;        
-     
-     }
+@media only screen and (max-width: 580px) {
     
-    .box{
+     .box{
         margin-top: 0px;
      }
 
-    .bckgrnd{   
-        margin-left: 0;
+     .bckgrnd img{  
         
-        scale:.5;
+        scale:2.5;
     }
+
+
+    .babyNme{    
+        font-size: 2.5rem;   
+        
+    }
+
     .titlelogin h4 span,.babyNme h4 span{
     
-        font-size: 3.5rem;
-    
-        margin-bottom:80px;
-       
+        font-size: 3rem;    
+        margin-bottom:0px;      
         
     }
 
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-
-    .bckgrnd{   
-        
-        scale:1;
-    }
-
-}
-
