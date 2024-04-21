@@ -64,12 +64,18 @@ body{
     font-weight: 400;
     font-style: normal;
  
-     
- 
  }
+ .bckgrnd {
+    margin-top: 50px;
+
+ }
+    
+
+ 
  
  .bckgrnd img{
     margin-left: 50px;
+    
     max-width:900px;
     
     height:700px;
@@ -84,7 +90,8 @@ body{
     width: 250px;
     font-size: 20px;
     margin:auto;
-    margin-top: 10px;
+    margin-top: 50px;
+    
     color: #85adad;
 
  }
@@ -113,8 +120,9 @@ body{
 .invite{
     width: 450px;
     height:700px;
-
-    margin-right: 50px;
+    margin:auto;
+    margin-top: 50px;
+    
 
 
 
@@ -177,7 +185,7 @@ body{
  }
  @media only screen and (min-width: 920px) {
     .kmain{
-        display: block;
+        
         
     }
 
