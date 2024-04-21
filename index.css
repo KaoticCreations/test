@@ -229,9 +229,12 @@ form a
 @media only screen and (max-width: 380px) {
     .kmain{
         
-        margin: 0;
-         
+        margin: 0;        
      
+     }
+    
+    .box{
+        margin-top: 0px;
      }
 
     .bckgrnd{   
