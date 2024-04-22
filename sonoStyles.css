@@ -2,9 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     
-    font-family: "Salsa", cursive;
-    font-weight: 400;
-    font-style: normal;
+   
 
     font-family: "Oooh Baby", cursive;
     font-weight: 400;
@@ -75,6 +73,10 @@ body{
     
 }
 .imagetop2 .titlelogin {
+
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
 
     font-size: 50px;
     color:#ae7854;
