@@ -1,27 +1,24 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    
-   
 
-    font-family: "Oooh Baby", cursive;
-    font-weight: 400;
-    font-style: normal;
-      
-}
 
 body{
     max-width: 1865px;
     min-width: 300px;
     height:auto;
-    margin: 0px;
+    
     background-image: linear-gradient(#fbf3cd,#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
+    background-image: linear-gradient(#fbf3cd,#fbf3cd,#fbf3cd,#fbf3cd,#fadbad);
 }
+
 
 .imagetop{
 
     display:flex;
-    flex-wrap: wrap;   
+    flex-wrap: wrap;  
+    
+    background-image: linear-gradient(#fadbad,#b9cac8,#b9cac8,#b9cac8,#b9cac8);
+    
+
+
 
 
     border: solid  #b9cac8; 
@@ -40,7 +37,7 @@ body{
 .imagetop .kcard{
 
     margin: auto;
-    margin-bottom: 40px;
+    
     
 }
 
@@ -59,7 +56,8 @@ body{
     border-radius: 15px;
     margin: auto;
     margin: 80PX;
-    padding: 20px;
+    margin-top: 0;
+    
     background-image: linear-gradient(#fbf3cd,#fbf3cd,#ae7854);
     background-image: linear-gradient(#b9cac8,#b9cac8,#fadbad,#fadbad);
 
@@ -75,16 +73,11 @@ body{
 }
 .imagetop2 .titlelogin {
 
-    font-family: "Oooh Baby", cursive;
-    font-weight: 400;
-    font-style: normal;
-
     font-size: 50px;
     color:#ae7854;
     text-align: center;
     margin: auto;
 
-    
     
 }
 
@@ -118,12 +111,12 @@ body{
 
     display:flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
+    background-image: linear-gradient(#b9cac8,#c3c3c3,#c3c3c3);
     
     
 
 
-    border: solid  #fbf3cd; 
+    border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
     box-shadow: 0px 5px 9px 3px #b8a972;
     border-radius: 15px;
@@ -367,17 +360,10 @@ body{
 
     }
     
-   .imagetop2 .titlelogin {
-
-    font-family: "Oooh Baby", cursive;
-    font-weight: 400;
-    font-style: normal;
-
-    font-size: 30px;
-    color:#ae7854;
-    margin-top: 50px;
-    
-}
+    .kcard5,.kcard4{
+        margin-left: 0px;
+        margin-left: 0px;
+    }
     
 
 }
