@@ -1,169 +1,235 @@
-body{
-    max-width: 1865px;
-    height:auto;
-    margin: 0px;
-    
-}
 
 
-.kheadr{
-    background-color: transparent;
-     
-    
-    
-    max-width: 100%;
-    min-width: 360px;
-    height: 50px;
-
-    font-size: 60px;
-    font-weight: 900;
-    color: #cc9966;
-
-    border: solid 5px 2px 3px #85adad; 
-    box-shadow: 0px 5px 2px 3px #85adad;
-    
-
-}
-
-#openbtn{
-    max-width: 50px;
-
-    font-size: 50px;
-    border:none;
-    position: fixed;
-    background-color: transparent;
-    
-}
-
-.kmain{
-    max-width:1980px;
-    min-width:300px;
-    grid-column: 2;
-    
-    grid-row: 2;
-
-    display:flex;
+.kRow{
+    display: flex;
     flex-wrap: wrap;
-    margin-left: 0px;   
-
-    margin: auto;
-    background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
-   
+    gap:25px;
+    margin-left: 80px;
+    
+    
+    
+    
 }
-.kmain .kcard{
 
-    margin: auto;
-    margin-top: 40px;
-    }
 
-    .kmain .kcard5{
 
+
+
+.kcard{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    width:500px;
+    min-width: 100px;
+    margin-right: 50px;
+
+}
+
+
+.kcard img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard :hover{    
+    scale: 1;
+    
+    z-index: 2;
+
+}
+
+.kcard1{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:800px;
+    min-width: 300px;
+    
+
+}
+.kcard1 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard1 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+
+.kcard2{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:600px;
+    min-width: 300px;
+    margin-right: 30px;
+
+}
+.kcard2 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard2 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+.kcard3{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:600px;
+    min-width: 300px;
+    margin-right: 30px;
+
+}
+.kcard3 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard3 :hover{    
+    scale: 1;
+    margin-right:200px;
+    z-index: 2;
+
+}
+
+
+
+.kcard4{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:1050px;
+    min-width: 300px;
+    
+    
+
+}
+.kcard4 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard4 :hover{    
+    scale: 1; 
+    z-index: 2;
+
+}
+
+
+.kcard5{
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #2d9292;
+    border-radius: 15px;
+    height:fit-content;
+
+    max-width:1100px;
+    min-width: 300px;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    
+    
+    
+
+}
+.kcard5 img{    
+    width:100%;    
+    height:auto;
+
+    border: solid 6px 5px 2px 3px #000066; 
+    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border-radius: 15px;
+    
+}
+.kcard5 :hover{    
+    scale: 1;
+    
+    z-index: 2;
+
+}
+
+
+/**********************************************************************************/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 580px) {
+    .kRow{
+        margin-left: 10px;
         margin: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        }
-
-.kImageFul{
-    
-
-}
-.kImageFul img{
-    Width:60px;    
-    margin-left: 33%;
-    
-    
-}
-
-.kImageSide img{
-    Width:1080px;    
-    margin-left: 18%;
-    margin-top: 50px;
-    
-    
-}
-
-.kside{
-    display:none;
-    background-color: #3d2b06;
-   
-}
-.closeFulView{
-    columns:  #3d2b06;
-   font-size: 20px;
-   margin-top: 0;
-   margin-left: 80px;
-}
-
-.kAbyss{
-    display:none;
-    
-}
-.btnfulView{
-    display:none;
-}
-
-
-
-
-
-
-
-/***************************************************************************************/
-
-/* The Overlay (background) */
-.overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    margin: auto;
-    height: 100%;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
-  }
-  
-  /* Position the content inside the overlay */
-  .overlay-content {
-    position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
-  }
-  
-  /* The navigation links inside the overlay */
-  .overlay a {
-    padding: 8px;
-    text-decoration: none;
-    font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
-  }
-  
-  /* When you mouse over the navigation links, change their color */
-  .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
-  }
-  
-  /* Position the close button (top right corner) */
-  .overlay .closebtn {
-    position: absolute;
-    top: 0px;
-    right: 45px;
-    font-size: 60px;
-  }
-  
-  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 450px) {
-    .overlay a {font-size: 20px}
-    .overlay .closebtn {
-      font-size: 40px;
-      top: 15px;
-      right: 35px;
     }
-  }
+    .kcard5,.kcard4,.kcard3,.kcard2,.kcard1,.kcard {
+        width: 420px;
+        
+    }
+    
+    .kcard5,.kcard4{
+        
+    }
+    
+
+}
+
+@media only screen and (min-width: 620px) {
+    .kcard5 :hover  {
+        scale: 1.0625;        
+    }  
+
+    .kcard4:hover,.kcard3:hover,.kcard2:hover ,.kcard1:hover{
+        scale: 1.375;        
+    }  
+
+    .kcard:hover{
+        scale: 1.4;        
+    }  
+
+
+            
+        
+
+
+    
+    
+
+
+
+}
