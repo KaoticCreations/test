@@ -50,6 +50,11 @@ body{
     background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
    
 }
+.kmain .kcard{
+
+    margin: auto;
+    margin-top: 40px;
+    }
 
 .kImageFul{
     
