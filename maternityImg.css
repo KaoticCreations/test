@@ -136,7 +136,7 @@
 
     max-width:1050px;
     min-width: 300px;
-    margin-left: 20px;
+    
     
 
 }
@@ -166,8 +166,8 @@
     min-width: 300px;
     margin-top: 10px;
     margin-bottom: 80px;
-    margin-left: 250px;
-    margin-right: 150px;
+    
+    
     
 
 }
@@ -199,12 +199,11 @@
     }
     .kcard5,.kcard4,.kcard3,.kcard2,.kcard1,.kcard {
         width: 420px;
-        margin-left: 10px;
+        
     }
     
     .kcard5,.kcard4{
-        margin-left: 0px;
-        margin-left: 0px;
+        
     }
     
 
