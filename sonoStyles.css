@@ -3,10 +3,35 @@ body{
     min-width: 300px;
     height:auto;
     margin: 0px;
-    
+    background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
 }
 
 .imagetop{
+
+    display:flex;
+    flex-wrap: wrap;   
+
+
+    border: solid  #769895; 
+    border-width: 6px 5px 2px 3px;
+    box-shadow: 0px 5px 9px 3px #b8a972;
+    border-radius: 15px;
+    
+    margin: 80PX;
+    padding: 20px;
+    
+
+    min-width: 380px;
+
+}
+
+.imagetop .kcard{
+
+    margin: auto;
+}
+
+
+.imagetop2{
 
     display:flex;
     flex-wrap: wrap;
@@ -27,25 +52,23 @@ body{
 
 }
 
-.imagetop .kcard{
-
-margin: auto;
+.imagetop2 .titlelogin{
+    margin: auto;
 }
 
 .imagetop2 .kcard{
 
-margin: auto;
 }
 .kmain{
 
     display:flex;
     flex-wrap: wrap;
-    background-image: linear-gradient(#b9cac8,#fbf3cd,#fbf3cd,#fadbad);
+    background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
+    
     
 
 
-
-    border: solid  #769895; 
+    border: solid  #fbf3cd; 
     border-width: 6px 5px 2px 3px;
     box-shadow: 0px 5px 9px 3px #b8a972;
     border-radius: 15px;
@@ -53,6 +76,7 @@ margin: auto;
     margin-top:150px ;
 
     margin-left: 80px;
+    min-width: 380px;
 
 
 }
@@ -81,8 +105,9 @@ margin: auto;
 
 
 .kcard{
-    border: solid 6px 5px 2px 3px #000066; 
-    box-shadow: 0px 5px 2px 3px #2d9292;
+    border:solid #769895;
+    border-width: 6px 5px 2px 3px ; 
+    box-shadow: 9px 5px 9px 3px #fbf3cd;
     border-radius: 15px;
     height:fit-content;
 
@@ -97,8 +122,9 @@ margin: auto;
     width:100%;    
     height:auto;
 
-    border: solid 6px 5px 2px 3px #000066; 
-    box-shadow: 0px 5px 2px 3px #eac9aa;
+    border:solid;
+    border-width:  6px 5px 2px 3px #fbc483; 
+    box-shadow: 0px 5px 2px 3px #769895;
     border-radius: 15px;
     
 }
@@ -258,13 +284,14 @@ margin: auto;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 580px) {
-    .kRow{
-        margin-left: 10px;
+    .imagetop,.imagetop,.kmain{
+        
         margin: auto;
+
     }
     .kcard5,.kcard4,.kcard3,.kcard2,.kcard1,.kcard {
         
-        margin-left: 10px;
+        margin-left: 0px;
     }
     
     .kcard5,.kcard4{
