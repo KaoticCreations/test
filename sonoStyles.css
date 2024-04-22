@@ -23,7 +23,7 @@ body{
 
     border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
-    box-shadow: 0px 5px 9px 3px #b8a972;
+    box-shadow: 0px 5px 9px 3px #ae7854;
     border-radius: 15px;
     
     margin: 80PX;
@@ -52,7 +52,7 @@ body{
 
     border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
-    box-shadow: 0px 5px 9px 3px #b8a972;
+    box-shadow: 0px 5px 9px 3px #ae7854;
     border-radius: 15px;
     margin: auto;
     margin: 80PX;
@@ -121,7 +121,7 @@ body{
 
     border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
-    box-shadow: 0px 5px 9px 3px #b8a972;
+    box-shadow: 0px 5px 9px 3px #ae7854;
     border-radius: 15px;
 
     margin-top:150px ;
@@ -137,6 +137,14 @@ body{
 
     margin: auto;
     margin-top: 40px;
+    }
+
+
+    .kmain .kcard2{
+
+        margin: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
 
 
@@ -158,9 +166,9 @@ body{
 
 
 .kcard{
-    border:solid #769895;
+    border:solid #ae7854;
     border-width: 6px 5px 2px 3px ; 
-    box-shadow: 9px 5px 9px 3px #fbf3cd;
+    box-shadow: 9px 5px 9px 3px #b9cac8;
     border-radius: 15px;
     height:fit-content;
 
@@ -176,8 +184,9 @@ body{
     height:auto;
 
     border:solid;
-    border-width:  6px 5px 2px 3px #fbc483; 
-    box-shadow: 0px 5px 2px 3px #769895;
+    border-width:  6px 5px 2px 3px #ae7854; 
+    box-shadow: 0px 5px 2px 3px #ae7854;
+    box-shadow: 0px 5px 2px 3px #fbc483;
     border-radius: 15px;
     
 }
