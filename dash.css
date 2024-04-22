@@ -225,7 +225,7 @@ body{
  @media only screen and (max-width: 520px) {
     .kmain{
         display: block;
-        margin-top: 50px;
+        margin-top: 0px;
         
 
         
@@ -234,10 +234,17 @@ body{
     .bckgrnd {
         margin-left: 0px;
         
-         margin-top: 80px;
+         
         
         max-width:300px;
         height:auto;
+
+    }
+     .bckgrnd img {        
+        
+         margin-top: 80px;
+        
+       
 
     }
 
