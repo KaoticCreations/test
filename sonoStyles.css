@@ -365,11 +365,37 @@ body{
 
     }
     
-    .kcard5,.kcard4{
-        margin-left: 0px;
-        margin-left: 0px;
+    .imagetop2 .titlelogin {
+
+        font-size: 40px;
+        color:#ae7854;
+        text-align: center;
+        margin: auto;
+    
+        
     }
     
+    
+    
+    
+    .imagetop2 .titlelogin span {
+        font-size: 60px;
+        
+        
+    
+        
+        
+    }
+    
+    .imagetop2 .titlelogin img {
+    
+        scale: 1.5;
+    
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        
+    }
 
 }
 
