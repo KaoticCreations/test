@@ -28,6 +28,7 @@ body{
 .imagetop .kcard{
 
     margin: auto;
+    
 }
 
 
@@ -57,6 +58,7 @@ body{
 }
 
 .imagetop2 .kcard{
+    margin: auto;
 
 }
 .kmain{
@@ -285,13 +287,31 @@ body{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 580px) {
     .imagetop,.imagetop,.kmain{
+        width:100%;
         
-        margin: auto;
+        margin-left: 0;
+        margin-top: 50px;
 
     }
-    .kcard5,.kcard4,.kcard3,.kcard2,.kcard1,.kcard {
+
+    .imagetop, .kcard{
+        width:100%;
+        padding:0;
+        margin-bottom: 40px;
         
-        margin-left: 0px;
+
+    }
+    .imagetop2, .kcard{
+        width:100%;
+        padding:0;
+        margin-left: 0px
+    }
+    .imagetop .kcard{
+        width:100%;
+        padding:0;
+        margin-bottom: 40px;
+        
+
     }
     
     .kcard5,.kcard4{
