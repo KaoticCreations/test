@@ -234,19 +234,22 @@ body{
     .bckgrnd {
         margin-left: 0px;
         
-         
+         margin-top: 80px;
         
         max-width:300px;
         height:auto;
 
     }
-     .bckgrnd img {        
-        
-         margin-top: 80px;
-        
-       
-
+    .kmain .bckgrnd{
+        margin-top: 30px;
     }
+
+    .invite{
+        
+        margin-top: 50px;
+
+    
+
 
 
 
