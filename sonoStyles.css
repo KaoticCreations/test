@@ -84,6 +84,7 @@ body{
     margin: auto;
 
     
+    
 }
 
 
@@ -365,10 +366,17 @@ body{
 
     }
     
-    .kcard5,.kcard4{
-        margin-left: 0px;
-        margin-left: 0px;
-    }
+   .imagetop2 .titlelogin {
+
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 30px;
+    color:#ae7854;
+    margin-top: 50px;
+    
+}
     
 
 }
