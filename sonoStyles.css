@@ -1,9 +1,23 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+    font-family: "Salsa", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+    font-family: "Oooh Baby", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
 body{
     max-width: 1865px;
     min-width: 300px;
     height:auto;
     margin: 0px;
-    background-image: linear-gradient(#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
+    background-image: linear-gradient(#fbf3cd,#b9cac8,#fbf3cd,#ffffff,#fbf3cd,#fadbad);
 }
 
 .imagetop{
@@ -12,7 +26,7 @@ body{
     flex-wrap: wrap;   
 
 
-    border: solid  #769895; 
+    border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
     box-shadow: 0px 5px 9px 3px #b8a972;
     border-radius: 15px;
@@ -32,6 +46,7 @@ body{
 }
 
 
+
 .imagetop2{
 
     display:flex;
@@ -39,28 +54,62 @@ body{
     
 
 
-    border: solid  #769895; 
+    border: solid  #b9cac8; 
     border-width: 6px 5px 2px 3px;
     box-shadow: 0px 5px 9px 3px #b8a972;
     border-radius: 15px;
-    
+    margin: auto;
     margin: 80PX;
     padding: 20px;
     background-image: linear-gradient(#fbf3cd,#fbf3cd,#ae7854);
-    background-image: linear-gradient(#b9cac8,#fbf3cd,#fbf3cd,#fadbad);
+    background-image: linear-gradient(#b9cac8,#b9cac8,#fadbad,#fadbad);
 
     min-width: 380px;
+    
 
 }
-
-.imagetop2 .titlelogin{
-    margin: auto;
-}
-
 .imagetop2 .kcard{
+
+    margin: auto;
+    
+    
+}
+.imagetop2 .titlelogin {
+
+    font-size: 50px;
+    color:#ae7854;
+    text-align: center;
     margin: auto;
 
+    
 }
+
+
+
+
+.imagetop2 .titlelogin span {
+    font-size: 80px;
+    color:#fbf3cd;
+    
+
+    
+    
+}
+
+.imagetop2 .titlelogin img {
+
+    scale: 2.5;
+
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    
+}
+
+
+
+
+
 .kmain{
 
     display:flex;
