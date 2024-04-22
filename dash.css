@@ -7,7 +7,7 @@
 
 body{
     margin: auto;
-    max-width: 1880px;
+    max-width: 1980px;
     background-color: #e2ebf8;      
     background-color: #ffffff; 
 }
@@ -23,17 +23,18 @@ body{
     background-color: transparent;
      
     margin-left: auto;
+    margin-bottom: 10px;
     text-align: center;
     max-width: 100%;
     min-width: 360px;
+
+    width: 100%;
     height: 150px;
 
     font-size: 60px;
     font-weight: 900;
     color: #fbc483;
 
-    border: solid 5px 2px 3px #85adad; 
-    box-shadow: 0px 5px 2px 3px #85adad;
     
      
 }
@@ -44,29 +45,49 @@ body{
 .kmain{
     
     display: grid ;
-    grid-template-rows: auto auto auto auto ;
+    grid-template-rows: auto ;
     grid-template-columns: 1fr 1fr 1fr;
     
-    display:flex;
-    flex-wrap: wrap;
+    
 
     background-color: transparent;
+
+    border: solid 7px  #fadbad; 
+    box-shadow: 0px 8px 6px 3px #edbe6e;
+    border-radius: 25px;
     
     text-align: center;
      max-width: 100%;
      min-width: 360px;
      height: auto;
 
-     margin-left: auto;
+     margin-top: 20PX;
  
-     padding-top: 20PX;
-     font-family: "Oooh Baby", cursive;
+     padding: 20PX;
+
+    font-family: "Oooh Baby", cursive;
     font-weight: 400;
     font-style: normal;
  
  }
+
  .bckgrnd {
     margin-top: 50px;
+    margin-left: 50px;
+    
+    max-width:900px;
+    width:800px;
+    height: fit-content;
+    border: solid  5px 2px 3px #b8a972ff;
+    box-shadow: 0px 5px 8px 3px #cc9966;
+    border-radius: 7px;
+    
+    border: solid  #769895; 
+    border-width: 6px 5px 2px 3px;
+
+    box-shadow: 0px 5px 9px 3px #b8a972;
+    border-radius: 15px;
+    opacity: 100%;
 
  }
     
@@ -74,25 +95,40 @@ body{
  
  
  .bckgrnd img{
-    margin-left: 50px;
+    width:100%;
     
-    max-width:900px;
     
-    height:700px;
-    border: solid  5px 2px 3px #b8a972ff;
+    
+    border: solid  #b8a972ff;
+    border-width: 0px 0px 0px 0px;
     box-shadow: 0px 5px 8px 3px #cc9966;
     border-radius: 7px;
+    
+    border: solid  #769895; 
+    border-width: 0px 0px 2px 3px;
 
+    box-shadow: 0px 5px 9px 3px #b8a972;
+    border-radius: 15px;
     opacity: 100%;
    
  }
  .registeries{
-    width: 250px;
+    width: 420px;
     font-size: 20px;
     margin:auto;
-    margin-top: 50px;
-    
+    margin-top: 50px;    
+
     color: #85adad;
+    border:solid  #769895; 
+    border-width: 8px 0px 8px 0px;
+    box-shadow: 0px 0px 8px 3px #edbe6e;
+    border-radius: 15px;
+
+    border: solid  #769895; 
+    border-width: 6px 5px 2px 3px;
+
+    box-shadow: 0px 5px 9px 3px #b8a972;
+    border-radius: 15px;
 
  }
 
@@ -101,34 +137,47 @@ body{
     font-size: 50px;
     margin:auto;
     margin-top: 50px;
-    color: #caa571ff;
+    color: #caa571;
+    color: #749b9a;
 
  }
 
  .regAmaz,.regtarget{
 
-    border:solid 9px 5px 2px 3px #161412; 
-    box-shadow: 0px 5px 8px 9px #edbe6e;
+    border:solid 2px #769895; 
+    box-shadow: 0px 5px 8px 3px #edbe6e;
     border-radius: 15px;
+    padding: 10px;
  }
 
 
- .regtarget{
+ .regtarget,.regAmaz{
+    width: 280px;
+    margin: auto;
     margin-top: 50px;
+    
  }
-
+.regtarget{
+    margin-bottom: 50px;
+    
+}
 .invite{
     width: 450px;
-    height:700px;
+    height: fit-content;
     margin:auto;
-    margin-top: 50px;
+    margin-top: 150px;
     
 
 
 
-    border: solid 6px 5px 2px 3px #b8a972; 
+    border: solid  #769895; 
+    border-width: 6px 5px 2px 3px;
+
     box-shadow: 0px 5px 9px 3px #b8a972;
     border-radius: 15px;
+}
+.invite img{
+    width: 100%;
 }
 
  .name{
@@ -154,12 +203,12 @@ body{
 
  /*************************************************************************************/
 
- @media only screen and (min-width: 520px) {
+ @media only screen and (max-width: 520px) {
 
-    .bckgrnd img{
+    .bckgrnd {
         margin-left: 0px;
         max-width:300px;
-        height:300px;
+        height:auto;
 
     }
 
@@ -172,28 +221,29 @@ body{
         
     }
 
-    .bckgrnd img{
+    .bckgrnd {
         margin-left: 0px;
         margin: auto;
         max-width:600px;
-        height:400px;
+        height:auto;
 
     }
 
 
 
  }
- @media only screen and (min-width: 920px) {
+ @media only screen and (max-width: 920px) {
     .kmain{
-        
+        display:block;
         
     }
+    
 
-    .bckgrnd img{
+    .bckgrnd {
         margin-left: 0px;
         margin: auto;
         max-width:750px;
-        height:550px;
+        height:auto;
 
     }
 
@@ -202,12 +252,16 @@ body{
  }
 
  /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-    .bckgrnd img{
-        
-        max-width:900px;
-        height:700px;
+@media only screen and (max-width: 1200px) {
+    
 
+}
+
+@media only screen and (max-width: 1480px) {
+    .kmain{
+        display:flex;
+        flex-wrap: wrap;
+        
     }
 
 }
